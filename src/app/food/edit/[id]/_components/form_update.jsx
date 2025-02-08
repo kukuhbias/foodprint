@@ -20,7 +20,7 @@ export const FormUpdate = ({
       <section>
         <h3 className="text-lg font-bold">Update</h3>
       </section>
-      <input name="id" defaultValue={id} />
+      <input name="id" defaultValue={id} hidden />
       <input
         name="name"
         placeholder="input the name"
